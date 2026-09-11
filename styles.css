@@ -26,11 +26,12 @@ p {
     margin: 0px;
 }
 
-li {
+a {
     color: #6b6b6b;
     font-size: 1rem;
     line-height: 150%;
     margin: 0px;
+    text-decoration: none;
 }
 
 /* NAVBAR STYLES */
@@ -39,11 +40,11 @@ li {
     width: 100%;
     height: fit-content;
     border-bottom: 1px solid #f1f1f1;
-    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
     /* flexbox */
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .navbar-links {
@@ -52,13 +53,7 @@ li {
     width: 100%;
     /* flexbox */
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-}
-
-.navbar-links a {
-    text-decoration: none;
+    gap: 1.5rem;
 }
 
 /* HOMEPAGE CLASS STYLES */
@@ -77,7 +72,6 @@ li {
 
 .homepage-title {
     width: 100%;
-    margin-bottom: 1rem;
 }
 
 
