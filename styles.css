@@ -26,7 +26,42 @@ p {
     margin: 0px;
 }
 
-/* CLASS STYLES */
+li {
+    color: #6b6b6b;
+    font-size: 1rem;
+    line-height: 150%;
+    margin: 0px;
+}
+
+/* NAVBAR STYLES */
+
+.navbar {
+    width: 100%;
+    height: fit-content;
+    border-bottom: 1px solid #f1f1f1;
+    padding: 1rem;
+    /* flexbox */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-links {
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    /* flexbox */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.navbar-links a {
+    text-decoration: none;
+}
+
+/* HOMEPAGE CLASS STYLES */
 
 .homepage-content-container {
     width: 100%;
