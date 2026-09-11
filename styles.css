@@ -31,7 +31,8 @@ p {
 .homepage-content-container {
     width: 100%;
     max-width: 680px;
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     /* flexbox */
     display: flex;
     flex-direction: column;
