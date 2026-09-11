@@ -10,12 +10,12 @@
 body {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    padding: 1rem;
+    padding: 2rem;
     /* flexbox */
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 /* TEXT STYLES */
@@ -28,6 +28,11 @@ p {
 }
 
 /* CLASS STYLES */
+
+.homepage-title {
+    width: 100%;
+    margin-bottom: 1rem;
+}
 
 .homepage-cards {
     width: 100%;
@@ -42,6 +47,7 @@ p {
 .card {
     padding: 2rem;
     border: 1px solid #f1f1f1;
+    background: #fbfbfb;
     border-radius: 1rem;
     width: 100%;
     /* flexbox */
