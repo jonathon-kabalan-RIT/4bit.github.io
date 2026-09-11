@@ -61,8 +61,7 @@ a {
 .homepage-content-container {
     width: 100%;
     max-width: 680px;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding: 2rem;
     /* flexbox */
     display: flex;
     flex-direction: column;
