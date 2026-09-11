@@ -60,7 +60,7 @@ a {
 
 .homepage-content-container {
     width: 100%;
-    max-width: 680px;
+    max-width: 720px;
     padding: 2rem;
     /* flexbox */
     display: flex;
